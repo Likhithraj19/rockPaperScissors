@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #a52fdb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #af42ca;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #34495e;
+    margin-top: 20px;
+}
+
+#user-choice, #computer-choice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#user-choice::after, #computer-choice::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+#rock::after {
+    background-image: url('rock.png'); 
+}
+
+#paper::after {
+    background-image: url('paper.png'); 
+}
+
+#scissors::after {
+    background-image: url('scissors.png'); 
+}
